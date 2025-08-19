@@ -1,0 +1,67 @@
+
+# Alacritty Config for Windows
+
+[general]
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "0x282C34"
+foreground = "0xABB2BF"
+
+[colors.normal]
+black   = "0x282C34"
+red     = "0xE06C75"
+green   = "0x98C379"
+yellow  = "0xE5C07B"
+blue    = "0x61AFEF"
+magenta = "0xC678DD"
+cyan    = "0x56B6C2"
+white   = "0xABB2BF"
+
+[colors.bright]
+black   = "0x5C6370"
+red     = "0xE06C75"
+green   = "0x98C379"
+yellow  = "0xE5C07B"
+blue    = "0x61AFEF"
+magenta = "0xC678DD"
+cyan    = "0x56B6C2"
+white   = "0xFFFFFF"
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
+bold = { family = "CaskaydiaCove Nerd Font", style = "Bold" }
+italic = { family = "CaskaydiaCove Nerd Font", style = "Italic" }
+size = 12.0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+decorations = "full"
+dynamic_title = true
+
+[window.dimensions]
+columns = 120
+lines = 30
+
+[window.padding]
+x = 5
+y = 5
+
+[terminal.shell]
+program = "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
