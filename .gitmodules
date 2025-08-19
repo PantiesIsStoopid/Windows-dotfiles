@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/PantiesIsStoopid/nvim.git
+[submodule "powershell"]
+	path = powershell
+	url = https://github.com/PantiesIsStoopid/powershell.git
