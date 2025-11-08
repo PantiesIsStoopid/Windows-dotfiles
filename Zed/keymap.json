@@ -1,0 +1,19 @@
+[
+  {
+    "bindings": {
+      "space w v": "pane::SplitVertical",
+      "space w h": "pane::SplitHorizontal",
+      "space f t": "editor::ToggleFold",
+      "space s f": "file_finder::Toggle",
+      "space s g": "workspace::NewSearch",
+      "K": "editor::Hover"
+    },
+    "context": "Editor && vim_mode == normal"
+  },
+  {
+    "bindings": {
+      "j k": ["workspace::SendKeystrokes", "escape"]
+    },
+    "context": "Editor && vim_mode == insert"
+  }
+]
